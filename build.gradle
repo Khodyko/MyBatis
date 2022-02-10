@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example.web'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+    implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.7'
+   }
